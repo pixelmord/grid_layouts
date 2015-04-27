@@ -1,0 +1,33 @@
+# Layout routing definition
+entity.layout.collection:
+  path: '/admin/config/system/layout'
+  defaults:
+    _entity_list: 'layout'
+    _title: 'Layout Configuration'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.layout.add_form:
+  path: '/admin/config/system/layout/add'
+  defaults:
+    _entity_form: 'layout.add'
+    _title: 'Add Layout'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.layout.edit_form:
+  path: '/admin/config/system/layout/{layout}'
+  defaults:
+    _entity_form: 'layout.edit'
+    _title: 'Edit Layout'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.layout.delete_form:
+  path: '/admin/config/system/layout/{layout}/delete'
+  defaults:
+    _entity_form: 'layout.delete'
+    _title: 'Delete Layout'
+  requirements:
+    _permission: 'administer site configuration'
+

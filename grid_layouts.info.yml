@@ -1,0 +1,9 @@
+name: grid_layouts
+type: module
+description: Compose grid aware layouts.
+core: 8.x
+package: Layout
+dependencies:
+  - breakpoint
+  - rest
+

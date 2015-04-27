@@ -1,0 +1,6 @@
+services:
+  grid_layouts.normalizer.breakpoint.hal:
+    class: Drupal\grid_layouts\Normalizer\BreakpointNormalizer
+    arguments: []
+    tags:
+      - { name: normalizer, priority: 20 }

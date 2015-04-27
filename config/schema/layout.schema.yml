@@ -1,0 +1,12 @@
+grid_layouts.layout.*:
+  type: config_entity
+  label: 'Layout config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
